@@ -9,7 +9,7 @@ def change_x():
 
 change_x()
 
-# This prints 12. What do we have to modify in change_x() to get it to print 99?
+# This prints 12. What do we have to modify in change_x() to get it to print 99? -- return it x.
 print(x)
 
 
@@ -24,7 +24,7 @@ def outer():
     inner()
 
     # This prints 120. What do we have to change in inner() to get it to print
-    # 999?
+    # 999? -- pass in y as an argument.
     # Note: Google "python nested function scope".
     print(y)
 
